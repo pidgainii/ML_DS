@@ -17,6 +17,8 @@ This task will include:
   - Creating new features / columns
   - Finding missing values and check where they are
 
-Some Screenshots of this tasks (report includes more detailed information):
+Some Screenshots of this task (report includes more detailed information):
 
 ![Image1](Screenshots/1.png)
+![Image2](Screenshots/2.png)
+![Image3](Screenshots/3.png)
