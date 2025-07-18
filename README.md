@@ -1,4 +1,4 @@
-# Introuction to Machine Learning and Data Science Tasks
+# Introduction to Machine Learning and Data Science Tasks
 
 
 Reports in pdf format are included for both tasks and project
@@ -122,3 +122,21 @@ Residual plots where also used to visualize the performance of the models.
 
 
 Some examples of Classification models performance:
+
+KNN algorithm metrics:
+![Image1](Screenshots/Task3/knnaccuracy.png)
+
+KNN algorithm Confusion Matrix and ROC curve:
+![Image2](Screenshots/Task3/knn.png)
+
+Overall results of the classification models:
+![Image3](Screenshots/Task3/cresults.png)
+
+
+Regression metrics:
+
+Metrics for Linear regression:
+![Image4](Screenshots/Task3/linearm.png)
+
+Residual plot for Linear regression:
+![Image5](Screenshots/Task3/linearrp.png)
