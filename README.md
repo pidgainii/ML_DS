@@ -64,3 +64,27 @@ Outlier detection:
   - OneClass SVM
   - Local Outlier Factor
   - Isolation Forest
+
+
+
+Some screenshots of the task:
+
+PCA reduction -> new feature:
+
+![Image1](Screenshots/Task2/pca.png)
+
+t-SNE reduction -> new feature:
+
+![Image2](Screenshots/Task2/tsne.png)
+
+Scaling using logarithmic method:
+
+![Image3](Screenshots/Task2/logscalingmethod.png)
+
+Clustering using K-means algorithm:
+
+![Image4](Screenshots/Task2/kmeansclustering.png)
+
+Detecting outliers using isolation forest algorithm:
+
+![Image5](Screenshots/Task2/outlierdetection.png)
