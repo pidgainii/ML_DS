@@ -16,3 +16,7 @@ This task will include:
   - Correlation analysis
   - Creating new features / columns
   - Finding missing values and check where they are
+
+Some Screenshots of this tasks (report includes more detailed information):
+
+![Image1](Screenshots/1.png)
