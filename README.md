@@ -19,4 +19,4 @@ This task will include:
 
 Some Screenshots of this tasks (report includes more detailed information):
 
-![Image1](Screenshots\1.png)
+![Image1](Screenshots/1.png)
