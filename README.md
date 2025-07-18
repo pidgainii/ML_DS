@@ -20,8 +20,13 @@ This task will include:
 Some Screenshots of this task (report includes more detailed information):
 
 Distribution:
+
 ![Image1](Screenshots/1.png)
+
 Scatter Plot:
+
 ![Image2](Screenshots/2.png)
+
 Correlation HeatMap:
+
 ![Image3](Screenshots/3.png)
