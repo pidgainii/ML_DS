@@ -1,0 +1,36 @@
+K Nearest Neighbor:
+Este algoritmo es muy sencillo. Tiene informacion de puntos anteriores pertenecientes a distintas clases.
+A la hora de hacer una prediccion, calcula las distancias mas cercanas al punto, y dependiendo del parametro que tenga
+(numero de puntos cercanos que tener en cuenta), mira los n puntos mas cercanos al que estamos prediciendo. Y lo que hace
+es mirar que clase abunda mas en esos n puntos.
+
+
+Decision Tree:
+Se va dividiendo el dataset entero basado en un if else (una pregunta sobre cualquier caracteristica) Se va buscando la pregunta ideal
+(aquella que maximice la ganancia de informacion; es decir, aquella que divida lo mas efectivamente el dataset). El algoritmo va viendo
+cuales son las mejores preguntas que puede hacer usando una formula, y va separando el dataset hasta obtener hojas.
+Si se termina en una hoja que tenga mas de una clase en ella, se predecirá la clase con mayor proporcion en la hoja.
+
+
+
+Random Forest:
+Se basa en el decision tree. Lo que se hace es coger samples del dataset que tenemos de manera random.
+Despues hacemos decision trees con esos samples, y cada decision tree se basa tan solo en un par de caracteristicas, no en todas.
+Al final, se hace una combinacion de las predicciones de cada arbol del bosque.
+Creo que es un buen algoritmo cuando tenemos una gran cantidad de caracteristicas para hacer una prediccion (como es el caso del archivo que tenemos)
+
+
+SVM:
+Este algoritmo ya es mas complicado.
+En los input, cada caracteristica tendra asociada un peso (como en el ejemplo de las coordenadas). Mientras entrena, va ajustando los pesos y el bias.
+Ademas, este algoritmo busca la linea a plano optimo (el que tenga mayor margen).
+Si se trata de un problema no linealmente separable, se recurre al metodo kernel (se busca un espacio en el que si sean separables los puntos).
+Creo que esto funciona con funciones y polinomios.
+
+
+Naive Bayes:
+Usa probabilidades.
+Calcula con que probabilidad un dato pertenecera a cierta clase basado en probabilidades que se han calculado anteriormente.
+Luego se hacen predicciones basado en como de probable es que un dato pertenezca a cierta clase mirnado sus caracteristicas,
+viendo cuantas veces esa caracteristica ha significado que el dato perteneciese a cierta clase.
+La clase que tenga la mayor probabilidad, será la elegida.
