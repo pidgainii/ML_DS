@@ -88,3 +88,37 @@ Clustering using K-means algorithm:
 Detecting outliers using isolation forest algorithm:
 
 ![Image5](Screenshots/Task2/outlierdetection.png)
+
+
+
+## Task 3: Classification, Regression and Metrics
+
+Classification models used to predict the column Experience_Level:
+  - K-Nearest Neighbors (KNN)
+  - Decision Tree Classifier
+  - Random Forest Classifier
+  - Support Vector Machine (SVM)
+  - Naive Bayes
+Metrics used to evaluate the models:
+  - Confusion Matrix
+  - Precision
+  - Recall
+  - F1-Score
+  - Accuracy
+  - AUC (Area Under the ROC Curve)
+  - ROC Curve
+
+
+Regression models used to predict the column Calories_Burned:
+  - Linear Regression
+  - Polynomial Regression
+  - Support Vector Regression (SVR)
+  - Decision Tree Regressor
+  - Random Forest Regressor
+  - Ridge Regression
+  - Lasso Regression
+Metric used to evaluate the models: MAE, MSE, RMSE, R²
+Residual plots where also used to visualize the performance of the models.
+
+
+Some examples of Classification models performance:
