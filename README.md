@@ -99,6 +99,7 @@ Classification models used to predict the column Experience_Level:
   - Random Forest Classifier
   - Support Vector Machine (SVM)
   - Naive Bayes
+    
 Metrics used to evaluate the models:
   - Confusion Matrix
   - Precision
@@ -117,6 +118,7 @@ Regression models used to predict the column Calories_Burned:
   - Random Forest Regressor
   - Ridge Regression
   - Lasso Regression
+    
 Metric used to evaluate the models: MAE, MSE, RMSE, R²
 Residual plots where also used to visualize the performance of the models.
 
